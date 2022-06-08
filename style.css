@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
+* {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+    background-color: #E3E6EA;
+}
+
+.w-container {
+    background-color: #FFF;
+    width: 80%;
+    margin: 60px auto;
+    border-radius: 5px;
+    box-shadow: -2px 5px 20px rgba(0, 0, 0, .3);
+}
+
+.contact-btn {
+    color: #FFF;
+    background-color: #101726;
+    border-radius: 10px;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+.cv-btn {
+    text-decoration: none;
+    color: inherit;
+}
+
+.c-container {
+    padding: 50px 200px;
+}
+
+.c-container p {
+    font-size: 20px;
+}
+
+.medsos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.medsos-item {
+    margin: 20px 10px;
+}
+
+.medsos-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.medsos-item a:hover {
+    color: #FFD24C;
+}
+
+.card {
+    width: 300px;
+    box-shadow: -2px 5px 20px rgba(0, 0, 0, .3);
+    margin: 50px auto;
+    border-radius: 5px;
+}
+
+.card-desc {
+    padding: 10px 0;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.card h1 {
+    text-align: center;
+}
+
+.card p {
+    text-align: center;
+    font-size: 20px;
+}
